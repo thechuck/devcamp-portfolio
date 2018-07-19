@@ -3,10 +3,6 @@ class PortfoliosController < ApplicationController
     @portfolio_items = Portfolio.all
   end
 
-  def 
-    @rails_portfolio_items = Portfolio.ruby_on_rails
-  end
-
   def angular
     @angular_portfolio_items = Portfolio.angular
   end
