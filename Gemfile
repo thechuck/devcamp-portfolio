@@ -56,3 +56,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 #Friendly id lets you create pretty URLs and work with human-friendly strings as if they were numeric ids.
 gem 'friendly_id', '~> 5.1.0'
+
+#Authentication with Devise
+gem 'devise', '~> 4.4', '>= 4.4.3'
